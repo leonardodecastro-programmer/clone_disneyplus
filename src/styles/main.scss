@@ -144,11 +144,17 @@ body {
         max-width: 100%;
     }
 
-    &__text_container {
+    &__text-container {
         padding: 0 2vw;
 
         h2 {
             margin-bottom: 24px;
+        }
+
+        @media (max-width: 768px) {
+            h2, p {
+                text-align: center;
+            }
         }
     }
 
@@ -160,7 +166,7 @@ body {
             width: 100%;
         }
 
-        &__text_container {
+        &__text-container {
             position: absolute;
             top: 0;
             left: 50%;
